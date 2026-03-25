@@ -105,13 +105,15 @@ body {
 
 /* LOGO */
 .logo {
-  width: 70px;
+  width: 50px;
   position: absolute;
   top: 15px;
   right: 15px;
-  background: white;
-  padding: 5px;
-  border-radius: 10px;
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  padding: 8px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid gold;
 }
 
 /* LEFT */
