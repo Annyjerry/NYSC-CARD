@@ -105,9 +105,9 @@ body {
 
 /* LOGO */
 .logo {
-  width: 50px;
+  width: 40px;
   position: absolute;
-  top: 10px;
+  top: 5px;
   right: 15px;
   background: linear-gradient(135deg, #ffffff, #f0f0f0);
   padding: 8px;
