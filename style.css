@@ -148,6 +148,7 @@ body {
   padding: 8px;
   margin: 5px 0;
   border-radius: 8px;
+  color: white;
 }
 
 .quote-box {
@@ -155,6 +156,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   margin-top: 10px;
+  color: white;
 }
 
 .encouragement-box {
