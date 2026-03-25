@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Card Generator</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+</head>
+
+<body>
+
+<h1>Create Your Profile Card</h1>
+
+<div class="form">
+  <input id="name" placeholder="Full Name">
+  <input id="position" placeholder="Position in the House">
+  <input id="state" placeholder="State">
+  <input id="school" placeholder="Institution">
+  <input id="course" placeholder="Course">
+  <input id="hobbies" placeholder="Hobbies">
+  <input id="dob" placeholder="DOB">
+  <input id="contact" placeholder="Contact">
+  <input id="scripture" placeholder="Scripture">
+  <input id="food" placeholder="Favorite Food">
+  <input id="quote" placeholder="Quote">
+  <input id="encouragement" placeholder="Words of Encouragement">
+
+  <label>Profile Image</label>
+  <input type="file" id="imageUpload">
+
+  <select id="theme">
+    <option value="green">Green</option>
+    <option value="blue">Blue</option>
+    <option value="purple">Purple</option>
+  </select>
+
+  <button onclick="generateCard()">Generate Card</button>
+  <button onclick="downloadCard()">Download PNG</button>
+</div>
+
+<!-- CARD -->
+<div id="card" class="card green">
+
+  <img src="images.png" class="logo">
+
+  <div class="left">
+    <img id="profileImage" class="profile">
+    <h2 id="cardName"></h2>
+    <p id="cardPosition"></p>
+
+    <div class="quote-box">
+      <p id="cardQuote"></p>
+    </div>
+  </div>
+
+  <div class="right">
+    <h2 class="heading">Meet You</h2>
+
+    <div class="info-box" id="cardState"></div>
+    <div class="info-box" id="cardSchool"></div>
+    <div class="info-box" id="cardCourse"></div>
+    <div class="info-box" id="cardHobbies"></div>
+    <div class="info-box" id="cardDOB"></div>
+    <div class="info-box" id="cardContact"></div>
+    <div class="info-box" id="cardScripture"></div>
+    <div class="info-box" id="cardFood"></div>
+
+    <div class="encouragement-box" id="cardEncouragement"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
